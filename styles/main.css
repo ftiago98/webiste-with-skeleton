@@ -1,0 +1,107 @@
+.header{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/header-image.jpg);
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.header-brand-wrapper{
+    float: left;
+    margin-top: 30px;
+}
+
+.header-brand{
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 400%;
+
+}
+.header-brand:hover{
+    color: red;
+}
+
+.header-navbar{
+    float: right;
+    margin-top: 50px;
+}
+
+.header-navbar-links li{
+    float: left;
+    list-style-type: none;
+    padding-left: 9%; 
+    font-size: 200%;
+    font-family: 'Great Vibes', cursive;
+}
+
+.header-navbar-links li:hover{
+    color: red;
+}
+
+.reservation-button{
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 42%;
+}
+
+.reservation-button a{
+    color: black;
+}
+
+.reservation-button a:hover{
+    color: red;
+}
+
+.tripadvisor-comment{
+    position: absolute;
+    margin-top: 48%;
+}
+
+.tripadvisor-comment img{
+    position: relative;
+    width: 35%;
+}
+
+.google-location i{
+    color:rgb(33, 37, 40);
+    font-size: 375%;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 90%;
+}
+
+.google-location i:hover{
+    color: red;
+}
+
+.drop-menu-close{
+    display: none;
+}
+.drop-menu-open{
+    position: absolute;
+    height: 125px;
+    margin-top: -10px;
+    right: 1%;
+    margin-right: 12%;
+}
+
+.drop-menu-links li{
+    list-style-type: none;
+    color: black;
+    margin-top: -0px;
+    padding-bottom: 0px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 150%;
+}
+
+#container-bottom {
+    margin-top: 500px;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+  }
